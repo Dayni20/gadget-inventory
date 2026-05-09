@@ -1,9 +1,9 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import { COLORS } from "../styles/appStyles";
 import { ListScreen } from "../screens/ListScreen";
 import { RootStackParamList } from "./typesNavigation";
 import DetailScreen from '../screens/DetailScreen';
 import { FormScreen } from '../screens/FormScreen';
+import { COLORS } from '../styles/appStyles';
 
 const Stack = createStackNavigator<RootStackParamList>();
 
